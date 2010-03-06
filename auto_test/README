@@ -1,0 +1,5 @@
+auto_test.py
+~~~~~~~~~~~~
+A hacky, crude way to mock ZenTest's autospec. Nowhere close, though!
+Usage: ./auto_test.py "rake spec" will run all specs when any file in the
+directory is updated.
