@@ -1,3 +1,4 @@
 Mostly random code snippets that I wrote down in a flash, that might be useful or useless.
 
 1) quoteMtweet - A javascript bookmarklet that lets one select a text from a webpage and tweet the text with the url to the page. I use it for posting stuff from Guardian.co.uk, Angry Arab News Service and Richard Silverstein's Tikun Olam.
+2) auto_test.py - A hacky, crude way to mock ZenTest's autospec. Nowhere close, though! Usage: ./auto_test.py "rake spec" will run all specs when any file in the directory is updated.
